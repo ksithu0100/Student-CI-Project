@@ -8,7 +8,7 @@ from app import add_numbers, subtract_numbers
 
 class TestCalculatorApp(unittest.TestCase):
     def test_add_numbers(self):
-        self.assertEqual(add_numbers(2, 3), 999) #failing test case
+        #self.assertEqual(add_numbers(2, 3), 999) #failing test case
         self.assertEqual(add_numbers(2, 3), 5)
         self.assertEqual(add_numbers(-1, 1), 0)
 
